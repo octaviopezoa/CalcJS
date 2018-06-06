@@ -68,7 +68,7 @@
 	}
 		
 #calculadora ul li:active{
-	background:magenta;
+	background:red;
 	color:white;
 	}
 	
