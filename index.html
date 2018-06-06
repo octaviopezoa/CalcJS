@@ -4,14 +4,15 @@
 <meta charset="utf-8">
 <title>Calculadora</title>
 <link href="css/estilo.css" type="text/css" rel="stylesheet" media="">
+
 </head>
 
 <body>
-<div id="caja1"><h1>Calculadora</h1></div>
+<!--div id="caja1"><h1>Calculadora</h1></div-->
 
-<div id="calculadora">
+<div id="calculadora" class="container-fluid">
 
-	<div id="operaciones">0</div>
+	<div id="operaciones" class="container-fluid">0</div>
    
     <ul>
         <!--This obtiene el valor html que existe en la opción onclick definida-->
@@ -35,6 +36,7 @@
         <li onclick="resultado()">=</li>
         <li onclick="digitos(this)">/</li>   
     </ul>
+    <ul>
 	<div id="borrar" onclick="borrar()">BORRAR</div>
 </div>
 
